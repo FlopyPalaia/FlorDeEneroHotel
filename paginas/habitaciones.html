@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Flor de Enero - Habitaciones</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" id="verde">
+            <div class="container-fluid">
+                <div class="navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="habitaciones.html">Habitaciones</a>
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                        <a class="nav-link" href="reservas.html">Reservas</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <br>
+        <h1>Habitaciones</h1>
+        <br>
+        <section>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Estandar</h5>
+                            <p class="card-text">Vive un momento de comodidad y tranquilidad en nuestra habitación estandar con vista a las montañas. Decoración minimalista, conectividad y equipamiento ideal para una estadía agradable.</p>
+                        </div>
+                        <div class="centrado hover">
+                            <a class="a" href="reservas.html">Reserva Ya!</a>
+                        </div>
+                        <br>
+                        <img src="../imagenes/estandar.jpg" class="card-img-bottom" alt="...">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Superior</h5>
+                            <p class="card-text">Nuestra habitación superior tiene un balcón con vista al lago de Potrerillos, lo que deja entrar mucha luz natural. Decoración minimalista, conectividad y equipamiento ideal para una estadía agradable.</p>
+                        </div>
+                        <div class="centrado hover">
+                            <a class="a" href="reservas.html">Reserva Ya!</a>
+                        </div>
+                        <br>
+                        <img src="../imagenes/superior.jpg" class="card-img-bottom" alt="...">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Deluxe</h5>
+                            <p class="card-text">La habitación Deluxe es ideal para aquellas personas que necesiten un poco más de espacio! Tiene vista a las montañas y baño con jacuzzi. Decoración minimalista, conectividad y equipamiento ideal para una estadía agradable.</p>
+                        </div>
+                        <div class="centrado hover">
+                            <a class="a" href="reservas.html">Reserva Ya!</a>
+                        </div>
+                        <br>
+                        <img src="../imagenes/deluxe.jpg" class="card-img-bottom" alt="...">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Suite</h5>
+                            <p class="card-text">La Suite cuenta con sala de estar separada, baño con jacuzzi y una computadora a su disposición. Decoración minimalista y menú de almohadas para que disfrute de una estadia agradable y una noche de descanso.</p>
+                        </div>
+                        <div class="centrado hover">
+                            <a class="a" href="reservas.html">Reserva Ya!</a>
+                        </div>
+                        <br>
+                        <img src="../imagenes/suite.jpg" class="card-img-bottom" alt="...">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section>
+            <ul id="productos"></ul>
+            <br>
+            <div class="borde">
+                <label for="name">Ingrese la habitaión que desea</label>
+                <input type="text" id="habitacion" name="name" maxlength="20" required>
+            </div>
+            <br>
+            <div class="borde">
+                <label for="name">Ingrese la cantidad de noches que desea hospedarse</label>
+                <input type="text" id="noches" name="name" maxlength="20" required>
+            </div>
+            <br>
+            <div class="borde">
+                <label for="name">Ingrese la cantidad de pasajeros</label>
+                <input type="text" id="pasajeros" name="name" maxlength="20" required>
+            </div>
+            <br>
+            <div class="centrado">
+                <input type="submit" value="Calcular" id="boton1" class="a">
+            </div>
+            <br>
+            <ul id="carrito" class="centrado"></ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>compañia</h4>
+                    <ul>
+                        <li><a href="#">sobre nosotrtos</a></li>
+                        <li><a href="#">nuestros servicios</a></li>
+                        <li><a href="#">política de sustentabilidad</a></li>
+                        <li><a href="#">oportunidades de trabajo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>ayuda</h4>
+                    <ul>
+                        <li><a href="#">preguntas frecuentes</a></li>
+                        <li><a href="#">política de reservas</a></li>
+                        <li><a href="#">opciones de pago</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                </div>
+                <div class="footer-col">
+                    <h4>redes sociales</h4>
+                    <div class="social-links">
+                        <a href="https://es-la.facebook.com/" target="_blank">f</a>
+                        <a href="https://twitter.com/" target="_blank">t</i></a>
+                        <a href="https://www.instagram.com/" target="_blank">i</i></a>
+                        <a href="https://www.youtube.com/index" target="_blank">y</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js"></script>
+<script src="../javaScript/habitaciones.js"></script>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Flor de Enero - Reservas</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" id="verde">
+            <div class="container-fluid">
+                <div class="navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="habitaciones.html">Habitaciones</a>
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                        <a class="nav-link active" aria-current="page" href="reservas.html">Reservas</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="reservas" id="main">
+        <br>
+        <h1>Reservar</h1>
+        <br>
+        <section class="centrado">
+            <form action="" id="formulario">
+                <div>
+                    <label for="name">Ingrese su Nombre</label>
+                    <input type="text" placeholder="Nombre y Apellido" id="nombre" name="name" maxlength="20" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Ingrese su E-Mail</label>
+                    <input type="email" placeholder="nombre@gmail.com" name="email" id="email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="telefono">Ingrese su Telefono</label>
+                    <input type="text" placeholder="+54 911 9836-7289" name="telefono" id="telefono">
+                </div>
+                <br>
+                <div>
+                    <label for="habitación">Seleccione la habitación</label>
+                    <select name="habitación" id="habitación">
+                        <option value="Estandar">Estandar</option>
+                        <option value="Superior">Superior</option>
+                        <option value="Deluxe">Deluxe</option>
+                        <option value="Suite">Suite</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="fecha">Seleccione la Fecha de su Viaje</label>
+                    <input type="date" required id="fecha">
+                </div>
+                <br>
+                <div id="sino">
+                    <label for="asistencia">Necesita Asistencia Especial?</label>
+                    <br>
+                    <label for="asistencia">Si</label>
+                    <input type="radio" name="asistencia" value="Si" id="si">
+                    <label for="asistencia">No</label>
+                    <input type="radio" name="asistencia" value="No" id="no">
+                </div>
+                <br>
+                <div>
+                    <label for="consultas">Consultas</label>
+                    <br>
+                    <textarea name="consultas" id="consultas" cols="30" rows="10" placeholder="Si tiene alguna consulta, por favor escríbala aquí."></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="newsletter">Desea recibir Newsletters del Blog?</label>
+                    <input type="checkbox" name="newsletter" id="news">
+                </div>
+                <br>
+                <div>
+                    <input type="reset" value="Borrar" id="boton1" class="a hover">
+                    <input type="submit" value="Enviar" id="boton2" class="a hover">
+                </div>
+            </form>
+        </section>
+    </main>
+    <br>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>compañia</h4>
+                    <ul>
+                        <li><a href="#">sobre nosotrtos</a></li>
+                        <li><a href="#">nuestros servicios</a></li>
+                        <li><a href="#">política de sustentabilidad</a></li>
+                        <li><a href="#">oportunidades de trabajo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>ayuda</h4>
+                    <ul>
+                        <li><a href="#">preguntas frecuentes</a></li>
+                        <li><a href="#">política de reservas</a></li>
+                        <li><a href="#">opciones de pago</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                </div>
+                <div class="footer-col">
+                    <h4>redes sociales</h4>
+                    <div class="social-links">
+                        <a href="https://es-la.facebook.com/" target="_blank">f</a>
+                        <a href="https://twitter.com/" target="_blank">t</i></a>
+                        <a href="https://www.instagram.com/" target="_blank">i</i></a>
+                        <a href="https://www.youtube.com/index" target="_blank">y</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+</body>
+<script src="../javaScript/toastify.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="../javaScript/reservas.js"></script>
+</html>

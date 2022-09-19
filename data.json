@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "nombre": "Estandar",
+        "precio": 12000,
+        "pension": "Sin Pensión"
+    },
+    {
+        "id": "2",
+        "nombre": "Superior",
+        "precio": 15000,
+        "pension": "Media Pensión"
+    },
+    {
+        "id": "3",
+        "nombre": "Deluxe",
+        "precio": 18000,
+        "pension": "Media Pensión"
+    },
+    {
+        "id": "4",
+        "nombre": "Suite",
+        "precio": 20000,
+        "pension": "Pensión Completa"
+    }
+]
