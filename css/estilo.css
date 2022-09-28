@@ -14,6 +14,9 @@ h2{
 .incluye{
     text-decoration: underline;
 }
+.logo{
+	text-align: right;
+}
 .centrado{
     text-align: center;
 }
