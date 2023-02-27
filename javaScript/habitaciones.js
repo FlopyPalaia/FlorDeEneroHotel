@@ -46,7 +46,7 @@ function calcular(){
     
     const habitacion1 = new Habitaciones("Estandar", "12000", "Sin Pensión");
     const habitacion2 = new Habitaciones("Superior", "15000", "Media Pendión");
-    const habitacion3 = new Habitaciones("Deluxe", "18000", "Media Pensión");
+    const habitacion3 = new Habitaciones("Accesible", "18000", "Media Pensión");
     const habitacion4 = new Habitaciones("Suite", "20000", "Pensión Completa")
 
     if(habitación.value == "Estandar" || habitación.value == "estandar"){
@@ -78,7 +78,7 @@ function calcular(){
     else if (habitación.value == "superior" || habitación.value == "Superior") {
         cotizar(estadia.value, pax.value, habitacion2.precio)
     }
-    else if (habitación.value == "deluxe" || habitación.value == "Deluxe") {
+    else if (habitación.value == "deluxe" || habitación.value == "Accesible") {
         cotizar(estadia.value, pax.value, habitacion3.precio)
     }
     else if (habitación.value == "suite" || habitación.value == "Suite") {
@@ -98,7 +98,7 @@ const productos = [
     {nombre: "Estandar", precio: 12000, pension: "Sin Pensión"},
     {nombre: "Superior", precio: 15000, pension: "Media Pensión"},
     {nombre: "Suite", precio: 20000, pension: "Pensión Completa" },
-    {nombre: "Deluxe", precio: 18000, pension: "Media Pensión"}
+    {nombre: "Accesible", precio: 18000, pension: "Media Pensión"}
 ]
 
 const resultado2 = productos.filter( (segun) => segun.precio < 15000 );
