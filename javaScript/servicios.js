@@ -17,7 +17,8 @@ contenedor.innerHTML = `<h1>Servicios</h1>
                         <br>
                         <br>
                         <p>Se encuentra en el primer piso y es de uso exclusivo para los huéspedes del hotel. Incluye sauna seco, sauna húmedo, duchas escocesas, pileta climatizada con vista al jardín, masajes con aceites naturales y tratamientos faciales.</p>
-                        <h3>Sala de Reuniones</h3>
+                        <br>
+                        <h3>Salón de Reuniones</h3>
                         <b>Abierto las 24 horas</b>
                         <br>
                         <br>
