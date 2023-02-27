@@ -55,7 +55,7 @@ function calcular(){
     else if(habitación.value == "Superior" || habitación.value == "superior"){
         habitacion2.venderHab();
     }
-    else if(habitación.value == "Deluxe" || habitación.value == "deluxe"){
+    else if(habitación.value == "Accesible" || habitación.value == "accesible"){
         habitacion3.venderHab();
     }
     else if(habitación.value == "Suite" || habitación.value == "suite"){
@@ -78,7 +78,7 @@ function calcular(){
     else if (habitación.value == "superior" || habitación.value == "Superior") {
         cotizar(estadia.value, pax.value, habitacion2.precio)
     }
-    else if (habitación.value == "deluxe" || habitación.value == "Accesible") {
+    else if (habitación.value == "accesible" || habitación.value == "Accesible") {
         cotizar(estadia.value, pax.value, habitacion3.precio)
     }
     else if (habitación.value == "suite" || habitación.value == "Suite") {
