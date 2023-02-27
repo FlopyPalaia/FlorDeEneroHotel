@@ -2,25 +2,25 @@
     {
         "id": "1",
         "nombre": "Estandar",
-        "precio": 12000,
+        "precio": 35000,
         "pension": "Sin Pensión"
     },
     {
         "id": "2",
         "nombre": "Superior",
-        "precio": 15000,
+        "precio": 54000,
         "pension": "Media Pensión"
     },
     {
         "id": "3",
-        "nombre": "Deluxe",
-        "precio": 18000,
+        "nombre": "Accesible",
+        "precio": 35000,
         "pension": "Media Pensión"
     },
     {
         "id": "4",
         "nombre": "Suite",
-        "precio": 20000,
+        "precio": 90000,
         "pension": "Pensión Completa"
     }
 ]
