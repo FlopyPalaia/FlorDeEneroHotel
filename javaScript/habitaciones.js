@@ -44,10 +44,10 @@ function calcular(){
         }
     }
     
-    const habitacion1 = new Habitaciones("Estandar", "12000", "Sin Pensión");
-    const habitacion2 = new Habitaciones("Superior", "15000", "Media Pendión");
-    const habitacion3 = new Habitaciones("Accesible", "18000", "Media Pensión");
-    const habitacion4 = new Habitaciones("Suite", "20000", "Pensión Completa")
+    const habitacion1 = new Habitaciones("Estandar", "35000", "Sin Pensión");
+    const habitacion2 = new Habitaciones("Superior", "54000", "Media Pendión");
+    const habitacion3 = new Habitaciones("Accesible", "35000", "Media Pensión");
+    const habitacion4 = new Habitaciones("Suite", "90000", "Pensión Completa")
 
     if(habitación.value == "Estandar" || habitación.value == "estandar"){
         habitacion1.venderHab();
